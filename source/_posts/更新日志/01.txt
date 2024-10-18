@@ -1,0 +1,14 @@
+安装插件（bash）
+npm install hexo-renderer-pug hexo-renderer-stylus --save
+
+安装主题（bash）
+git clone -b master https://github.com/jerryc127/hexo-theme-butterfly.git themes/butterfly
+
+应用主题（_config.yml）
+theme: butterfly
+
+copy "themes\butterfly\_config.yml" -> "_config.butterfly.yml"
+
+delete "hello world.md"
+
+create "01-TypeScript基础.md" "source\_posts\更新日志\01.txt"
